@@ -1,0 +1,53 @@
+8
+
+dir
+2
+http://msfeldstein@svn.mijoro.com/mijortunes/trunk/MijorTunes/English.lproj
+http://msfeldstein@svn.mijoro.com/mijortunes
+
+
+
+2008-12-18T20:00:01.841475Z
+2
+msfeldstein
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+975b6595-575e-0410-a25c-9a00336034cd
+
+InfoPlist.strings
+file
+
+
+
+
+2009-02-13T01:12:06.000000Z
+d40905eac2db351bb09152e09e3b1174
+2008-12-18T20:00:01.841475Z
+2
+msfeldstein
+has-props
+
+MainMenu.xib
+file
+
+
+
+
+2009-02-13T01:12:06.000000Z
+c02d1c8e4180eeb7ea2ff42c84f982a4
+2008-12-18T20:00:01.841475Z
+2
+msfeldstein
+

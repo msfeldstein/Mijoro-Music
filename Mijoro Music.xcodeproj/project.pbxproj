@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAppleScriptBuildPhase section */
+		257572C4072881A4000BE9CA /* AppleScript */ = {
+			isa = PBXAppleScriptBuildPhase;
+			buildActionMask = 2147483647;
+			contextName = "";
+			files = (
+				257572C5072881A4000BE9CA /* MijorTunes.applescript in AppleScript */,
+			);
+			isSharedContext = 0;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXAppleScriptBuildPhase section */
+
+/* Begin PBXBuildFile section */
+		257572C5072881A4000BE9CA /* MijorTunes.applescript in AppleScript */ = {isa = PBXBuildFile; fileRef = DA206CF3015C4E8B03C91932 /* MijorTunes.applescript */; settings = {ATTRIBUTES = (Debug, ); }; };
+		257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		257572CA072881A4000BE9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */; };
+		57614EE70F4DF67A002A9F8B /* MJITunesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57614EE50F4DF67A002A9F8B /* MJITunesController.h */; };
+		57614EE80F4DF67A002A9F8B /* MJITunesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57614EE60F4DF67A002A9F8B /* MJITunesController.m */; };
+		57614F820F50B302002A9F8B /* prevImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57614F7E0F50B302002A9F8B /* prevImage.png */; };
+		57614F830F50B302002A9F8B /* nextImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57614F7F0F50B302002A9F8B /* nextImage.png */; };
+		57614F850F50B302002A9F8B /* pauseImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57614F810F50B302002A9F8B /* pauseImage.png */; };
+		57614F920F50B3D6002A9F8B /* playImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 57614F910F50B3D6002A9F8B /* playImage.png */; };
+		57CD35110EFA27B7009BE770 /* StatusbarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CD350F0EFA27B7009BE770 /* StatusbarController.h */; };
+		57CD35120EFA27B7009BE770 /* StatusbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CD35100EFA27B7009BE770 /* StatusbarController.m */; };
+		57DAF0310F52A34A000F7ADB /* iTunesSearchTableController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DAF02F0F52A34A000F7ADB /* iTunesSearchTableController.h */; };
+		57DAF0320F52A34A000F7ADB /* iTunesSearchTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DAF0300F52A34A000F7ADB /* iTunesSearchTableController.m */; };
+		57E387EC0F52983200ADAA03 /* MJSongTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E387EA0F52983200ADAA03 /* MJSongTrack.h */; };
+		57E387ED0F52983200ADAA03 /* MJSongTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E387EB0F52983200ADAA03 /* MJSongTrack.m */; };
+		57E3883C0F529E5E00ADAA03 /* ITunesQueryFilterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E3883A0F529E5E00ADAA03 /* ITunesQueryFilterView.h */; };
+		57E3883D0F529E5E00ADAA03 /* ITunesQueryFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E3883B0F529E5E00ADAA03 /* ITunesQueryFilterView.m */; };
+		57FA03120F496AA20001A82F /* MJGrowlDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FA03100F496AA20001A82F /* MJGrowlDelegate.h */; };
+		57FA03130F496AA20001A82F /* MJGrowlDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FA03110F496AA20001A82F /* MJGrowlDelegate.m */; };
+		57FA04AC0F4973490001A82F /* mijoroicon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 57FA04AB0F4973490001A82F /* mijoroicon.icns */; };
+		57FA05400F4AB58A0001A82F /* LoginItemLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FA053E0F4AB58A0001A82F /* LoginItemLoader.h */; };
+		57FA05410F4AB58A0001A82F /* LoginItemLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FA053F0F4AB58A0001A82F /* LoginItemLoader.m */; };
+		60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A014C20DBD2AA20071D9A8 /* MainMenu.xib */; };
+		6321A93010C0FEBB00DF9F1A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6321A92F10C0FEBB00DF9F1A /* icon.icns */; };
+		6349D59710C377AF00D11C0A /* SimpleHTTPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6349D59310C377AF00D11C0A /* SimpleHTTPConnection.h */; };
+		6349D59810C377AF00D11C0A /* SimpleHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349D59410C377AF00D11C0A /* SimpleHTTPConnection.m */; };
+		6349D59910C377AF00D11C0A /* SimpleHTTPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6349D59510C377AF00D11C0A /* SimpleHTTPServer.h */; };
+		6349D59A10C377AF00D11C0A /* SimpleHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6349D59610C377AF00D11C0A /* SimpleHTTPServer.m */; };
+		6349D59C10C377DC00D11C0A /* ServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 6349D59B10C377DC00D11C0A /* ServerDelegate.h */; };
+		6375E39810BBA71A007A8941 /* Growl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6375E39410BBA71A007A8941 /* Growl.h */; };
+		6375E39910BBA71A007A8941 /* GrowlApplicationBridge-Carbon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6375E39510BBA71A007A8941 /* GrowlApplicationBridge-Carbon.h */; };
+		6375E39A10BBA71A007A8941 /* GrowlApplicationBridge.h in Headers */ = {isa = PBXBuildFile; fileRef = 6375E39610BBA71A007A8941 /* GrowlApplicationBridge.h */; };
+		6375E39B10BBA71A007A8941 /* GrowlDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6375E39710BBA71A007A8941 /* GrowlDefines.h */; };
+		6375E3BD10BBA7C4007A8941 /* Growl-WithInstaller.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6375E3BC10BBA7C4007A8941 /* Growl-WithInstaller.framework */; };
+		6375E3BE10BBA7CA007A8941 /* Growl-WithInstaller.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6375E3BC10BBA7C4007A8941 /* Growl-WithInstaller.framework */; };
+		6375E3CF10BBAAE6007A8941 /* PreferencesController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6375E3CD10BBAAE5007A8941 /* PreferencesController.h */; };
+		6375E3D010BBAAE6007A8941 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375E3CE10BBAAE6007A8941 /* PreferencesController.m */; };
+		6375E3D310BBAB05007A8941 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6375E3D210BBAB05007A8941 /* Preferences.xib */; };
+		6375E43F10BBC814007A8941 /* MusicControllerProtocol.h in Resources */ = {isa = PBXBuildFile; fileRef = 6375E43E10BBC814007A8941 /* MusicControllerProtocol.h */; };
+		6375E5B510BCDD32007A8941 /* PluginLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6375E5B310BCDD32007A8941 /* PluginLoader.h */; };
+		6375E5B610BCDD32007A8941 /* PluginLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6375E5B410BCDD32007A8941 /* PluginLoader.m */; };
+		638C6DCB10C3799000236D06 /* MJDataUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DC910C3799000236D06 /* MJDataUtility.h */; };
+		638C6DCC10C3799000236D06 /* MJDataUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C6DCA10C3799000236D06 /* MJDataUtility.m */; };
+		638C6DDC10C379BB00236D06 /* JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DCF10C379BB00236D06 /* JSON.h */; };
+		638C6DDD10C379BB00236D06 /* NSObject+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DD010C379BB00236D06 /* NSObject+SBJSON.h */; };
+		638C6DDE10C379BB00236D06 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C6DD110C379BB00236D06 /* NSObject+SBJSON.m */; };
+		638C6DDF10C379BB00236D06 /* NSString+SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DD210C379BB00236D06 /* NSString+SBJSON.h */; };
+		638C6DE010C379BB00236D06 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C6DD310C379BB00236D06 /* NSString+SBJSON.m */; };
+		638C6DE110C379BB00236D06 /* SBJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DD410C379BB00236D06 /* SBJSON.h */; };
+		638C6DE210C379BB00236D06 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C6DD510C379BB00236D06 /* SBJSON.m */; };
+		638C6DE310C379BB00236D06 /* SBJsonBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DD610C379BB00236D06 /* SBJsonBase.h */; };
+		638C6DE410C379BB00236D06 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C6DD710C379BB00236D06 /* SBJsonBase.m */; };
+		638C6DE510C379BB00236D06 /* SBJsonParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DD810C379BB00236D06 /* SBJsonParser.h */; };
+		638C6DE610C379BB00236D06 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C6DD910C379BB00236D06 /* SBJsonParser.m */; };
+		638C6DE710C379BB00236D06 /* SBJsonWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 638C6DDA10C379BB00236D06 /* SBJsonWriter.h */; };
+		638C6DE810C379BB00236D06 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 638C6DDB10C379BB00236D06 /* SBJsonWriter.m */; };
+		63CEAC4310C26C45007CE7C2 /* AppleRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEAC4110C26C45007CE7C2 /* AppleRemote.m */; };
+		63CEAC4410C26C45007CE7C2 /* AppleRemote.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CEAC4210C26C45007CE7C2 /* AppleRemote.h */; };
+		63CEAC4710C26C58007CE7C2 /* HIDRemoteControlDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CEAC4510C26C58007CE7C2 /* HIDRemoteControlDevice.h */; };
+		63CEAC4810C26C58007CE7C2 /* HIDRemoteControlDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEAC4610C26C58007CE7C2 /* HIDRemoteControlDevice.m */; };
+		63CEAC5910C26C7E007CE7C2 /* RemoteControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CEAC5710C26C7E007CE7C2 /* RemoteControl.m */; };
+		63CEAC5A10C26C7E007CE7C2 /* RemoteControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 63CEAC5810C26C7E007CE7C2 /* RemoteControl.h */; };
+		63CEAC7B10C26E5B007CE7C2 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CEAC7A10C26E5B007CE7C2 /* Carbon.framework */; };
+		63CEAC8010C26E6B007CE7C2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63CEAC7F10C26E6B007CE7C2 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6375E37D10BBA596007A8941 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6375E3BE10BBA7CA007A8941 /* Growl-WithInstaller.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		257572D5072881A4000BE9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		257572D6072881A4000BE9CA /* MijorTunes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MijorTunes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		57614EE50F4DF67A002A9F8B /* MJITunesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJITunesController.h; sourceTree = "<group>"; };
+		57614EE60F4DF67A002A9F8B /* MJITunesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJITunesController.m; sourceTree = "<group>"; };
+		57614F7D0F50B2E8002A9F8B /* prevImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prevImage.png; sourceTree = "<group>"; };
+		57614F7E0F50B302002A9F8B /* prevImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prevImage.png; sourceTree = "<group>"; };
+		57614F7F0F50B302002A9F8B /* nextImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nextImage.png; sourceTree = "<group>"; };
+		57614F810F50B302002A9F8B /* pauseImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pauseImage.png; sourceTree = "<group>"; };
+		57614F910F50B3D6002A9F8B /* playImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playImage.png; sourceTree = "<group>"; };
+		57CD350F0EFA27B7009BE770 /* StatusbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusbarController.h; sourceTree = "<group>"; };
+		57CD35100EFA27B7009BE770 /* StatusbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusbarController.m; sourceTree = "<group>"; };
+		57DAF02F0F52A34A000F7ADB /* iTunesSearchTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunesSearchTableController.h; sourceTree = "<group>"; };
+		57DAF0300F52A34A000F7ADB /* iTunesSearchTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iTunesSearchTableController.m; sourceTree = "<group>"; };
+		57E387670F528AB900ADAA03 /* ITunesControllerTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ITunesControllerTest-Info.plist"; sourceTree = "<group>"; };
+		57E387EA0F52983200ADAA03 /* MJSongTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJSongTrack.h; sourceTree = "<group>"; };
+		57E387EB0F52983200ADAA03 /* MJSongTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJSongTrack.m; sourceTree = "<group>"; };
+		57E3883A0F529E5E00ADAA03 /* ITunesQueryFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITunesQueryFilterView.h; sourceTree = "<group>"; };
+		57E3883B0F529E5E00ADAA03 /* ITunesQueryFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITunesQueryFilterView.m; sourceTree = "<group>"; };
+		57FA03100F496AA20001A82F /* MJGrowlDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJGrowlDelegate.h; sourceTree = "<group>"; };
+		57FA03110F496AA20001A82F /* MJGrowlDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJGrowlDelegate.m; sourceTree = "<group>"; };
+		57FA04AB0F4973490001A82F /* mijoroicon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mijoroicon.icns; sourceTree = "<group>"; };
+		57FA053E0F4AB58A0001A82F /* LoginItemLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginItemLoader.h; sourceTree = "<group>"; };
+		57FA053F0F4AB58A0001A82F /* LoginItemLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginItemLoader.m; sourceTree = "<group>"; };
+		60A014C30DBD2AA20071D9A8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6321A92F10C0FEBB00DF9F1A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		6349D59310C377AF00D11C0A /* SimpleHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHTTPConnection.h; sourceTree = "<group>"; };
+		6349D59410C377AF00D11C0A /* SimpleHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHTTPConnection.m; sourceTree = "<group>"; };
+		6349D59510C377AF00D11C0A /* SimpleHTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleHTTPServer.h; sourceTree = "<group>"; };
+		6349D59610C377AF00D11C0A /* SimpleHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleHTTPServer.m; sourceTree = "<group>"; };
+		6349D59B10C377DC00D11C0A /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
+		6375E39410BBA71A007A8941 /* Growl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Growl.h; sourceTree = "<group>"; };
+		6375E39510BBA71A007A8941 /* GrowlApplicationBridge-Carbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GrowlApplicationBridge-Carbon.h"; sourceTree = "<group>"; };
+		6375E39610BBA71A007A8941 /* GrowlApplicationBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlApplicationBridge.h; sourceTree = "<group>"; };
+		6375E39710BBA71A007A8941 /* GrowlDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowlDefines.h; sourceTree = "<group>"; };
+		6375E3BC10BBA7C4007A8941 /* Growl-WithInstaller.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = "Growl-WithInstaller.framework"; sourceTree = "<group>"; };
+		6375E3CD10BBAAE5007A8941 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		6375E3CE10BBAAE6007A8941 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		6375E3D210BBAB05007A8941 /* Preferences.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		6375E43E10BBC814007A8941 /* MusicControllerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicControllerProtocol.h; sourceTree = "<group>"; };
+		6375E5B310BCDD32007A8941 /* PluginLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginLoader.h; sourceTree = "<group>"; };
+		6375E5B410BCDD32007A8941 /* PluginLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PluginLoader.m; sourceTree = "<group>"; };
+		638C6DC910C3799000236D06 /* MJDataUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJDataUtility.h; sourceTree = "<group>"; };
+		638C6DCA10C3799000236D06 /* MJDataUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJDataUtility.m; sourceTree = "<group>"; };
+		638C6DCF10C379BB00236D06 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		638C6DD010C379BB00236D06 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		638C6DD110C379BB00236D06 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		638C6DD210C379BB00236D06 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		638C6DD310C379BB00236D06 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		638C6DD410C379BB00236D06 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		638C6DD510C379BB00236D06 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		638C6DD610C379BB00236D06 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		638C6DD710C379BB00236D06 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		638C6DD810C379BB00236D06 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		638C6DD910C379BB00236D06 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		638C6DDA10C379BB00236D06 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		638C6DDB10C379BB00236D06 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		63CEAC4110C26C45007CE7C2 /* AppleRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppleRemote.m; sourceTree = "<group>"; };
+		63CEAC4210C26C45007CE7C2 /* AppleRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppleRemote.h; sourceTree = "<group>"; };
+		63CEAC4510C26C58007CE7C2 /* HIDRemoteControlDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HIDRemoteControlDevice.h; sourceTree = "<group>"; };
+		63CEAC4610C26C58007CE7C2 /* HIDRemoteControlDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HIDRemoteControlDevice.m; sourceTree = "<group>"; };
+		63CEAC5710C26C7E007CE7C2 /* RemoteControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteControl.m; sourceTree = "<group>"; };
+		63CEAC5810C26C7E007CE7C2 /* RemoteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteControl.h; sourceTree = "<group>"; };
+		63CEAC7A10C26E5B007CE7C2 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		63CEAC7F10C26E6B007CE7C2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
+		DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppleScriptKit.framework; path = /System/Library/Frameworks/AppleScriptKit.framework; sourceTree = "<absolute>"; };
+		DA206CF3015C4E8B03C91932 /* MijorTunes.applescript */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.applescript; path = MijorTunes.applescript; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257572CB072881A4000BE9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CC072881A4000BE9CA /* Cocoa.framework in Frameworks */,
+				257572CD072881A4000BE9CA /* AppleScriptKit.framework in Frameworks */,
+				6375E3BD10BBA7C4007A8941 /* Growl-WithInstaller.framework in Frameworks */,
+				63CEAC7B10C26E5B007CE7C2 /* Carbon.framework in Frameworks */,
+				63CEAC8010C26E6B007CE7C2 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				DA206CF3015C4E8B03C91932 /* MijorTunes.applescript */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA206CF1015C4E2903C91932 /* AppleScriptKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257572D6072881A4000BE9CA /* MijorTunes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MijorTunes */ = {
+			isa = PBXGroup;
+			children = (
+				6375E39310BBA70A007A8941 /* Classes */,
+				080E96DDFE201D6D7F000001 /* Scripts */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MijorTunes;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				257572D5072881A4000BE9CA /* Info.plist */,
+				57E387670F528AB900ADAA03 /* ITunesControllerTest-Info.plist */,
+				6321A92F10C0FEBB00DF9F1A /* icon.icns */,
+				6375E3D210BBAB05007A8941 /* Preferences.xib */,
+				57DCD22B0F4BCD6E00565E6B /* images */,
+				60A014C20DBD2AA20071D9A8 /* MainMenu.xib */,
+				65359356078DD41800E8BB2F /* AppleScriptKit.sdef */,
+				57FA04AB0F4973490001A82F /* mijoroicon.icns */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63CEAC7A10C26E5B007CE7C2 /* Carbon.framework */,
+				63CEAC7F10C26E6B007CE7C2 /* IOKit.framework */,
+				6375E3BC10BBA7C4007A8941 /* Growl-WithInstaller.framework */,
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57DCD22B0F4BCD6E00565E6B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				57614F910F50B3D6002A9F8B /* playImage.png */,
+				57614F7E0F50B302002A9F8B /* prevImage.png */,
+				57614F7F0F50B302002A9F8B /* nextImage.png */,
+				57614F810F50B302002A9F8B /* pauseImage.png */,
+				57614F7D0F50B2E8002A9F8B /* prevImage.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		6375E39310BBA70A007A8941 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6375E43E10BBC814007A8941 /* MusicControllerProtocol.h */,
+				63CEACC610C2750B007CE7C2 /* Deprecated */,
+				63CEACA210C274BF007CE7C2 /* System Utilities */,
+				57CD350F0EFA27B7009BE770 /* StatusbarController.h */,
+				57CD35100EFA27B7009BE770 /* StatusbarController.m */,
+				63CEAC9E10C27435007CE7C2 /* View Controllers */,
+				63CEACA110C27486007CE7C2 /* Remote Control */,
+				63CEACA010C2747E007CE7C2 /* Growl */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		638C6DCE10C379BB00236D06 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				638C6DCF10C379BB00236D06 /* JSON.h */,
+				638C6DD010C379BB00236D06 /* NSObject+SBJSON.h */,
+				638C6DD110C379BB00236D06 /* NSObject+SBJSON.m */,
+				638C6DD210C379BB00236D06 /* NSString+SBJSON.h */,
+				638C6DD310C379BB00236D06 /* NSString+SBJSON.m */,
+				638C6DD410C379BB00236D06 /* SBJSON.h */,
+				638C6DD510C379BB00236D06 /* SBJSON.m */,
+				638C6DD610C379BB00236D06 /* SBJsonBase.h */,
+				638C6DD710C379BB00236D06 /* SBJsonBase.m */,
+				638C6DD810C379BB00236D06 /* SBJsonParser.h */,
+				638C6DD910C379BB00236D06 /* SBJsonParser.m */,
+				638C6DDA10C379BB00236D06 /* SBJsonWriter.h */,
+				638C6DDB10C379BB00236D06 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		63CEAC9E10C27435007CE7C2 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6375E3CE10BBAAE6007A8941 /* PreferencesController.m */,
+				6375E3CD10BBAAE5007A8941 /* PreferencesController.h */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		63CEACA010C2747E007CE7C2 /* Growl */ = {
+			isa = PBXGroup;
+			children = (
+				57FA03100F496AA20001A82F /* MJGrowlDelegate.h */,
+				57FA03110F496AA20001A82F /* MJGrowlDelegate.m */,
+				6375E39410BBA71A007A8941 /* Growl.h */,
+				6375E39510BBA71A007A8941 /* GrowlApplicationBridge-Carbon.h */,
+				6375E39610BBA71A007A8941 /* GrowlApplicationBridge.h */,
+				6375E39710BBA71A007A8941 /* GrowlDefines.h */,
+			);
+			name = Growl;
+			sourceTree = "<group>";
+		};
+		63CEACA110C27486007CE7C2 /* Remote Control */ = {
+			isa = PBXGroup;
+			children = (
+				63CEAC5710C26C7E007CE7C2 /* RemoteControl.m */,
+				63CEAC5810C26C7E007CE7C2 /* RemoteControl.h */,
+				63CEAC4510C26C58007CE7C2 /* HIDRemoteControlDevice.h */,
+				63CEAC4610C26C58007CE7C2 /* HIDRemoteControlDevice.m */,
+				63CEAC4110C26C45007CE7C2 /* AppleRemote.m */,
+				63CEAC4210C26C45007CE7C2 /* AppleRemote.h */,
+			);
+			name = "Remote Control";
+			sourceTree = "<group>";
+		};
+		63CEACA210C274BF007CE7C2 /* System Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				638C6DCE10C379BB00236D06 /* JSON */,
+				638C6DC910C3799000236D06 /* MJDataUtility.h */,
+				638C6DCA10C3799000236D06 /* MJDataUtility.m */,
+				6349D59310C377AF00D11C0A /* SimpleHTTPConnection.h */,
+				6349D59410C377AF00D11C0A /* SimpleHTTPConnection.m */,
+				6349D59510C377AF00D11C0A /* SimpleHTTPServer.h */,
+				6349D59610C377AF00D11C0A /* SimpleHTTPServer.m */,
+				6375E5B310BCDD32007A8941 /* PluginLoader.h */,
+				6349D59B10C377DC00D11C0A /* ServerDelegate.h */,
+				6375E5B410BCDD32007A8941 /* PluginLoader.m */,
+				57FA053E0F4AB58A0001A82F /* LoginItemLoader.h */,
+				57FA053F0F4AB58A0001A82F /* LoginItemLoader.m */,
+			);
+			name = "System Utilities";
+			sourceTree = "<group>";
+		};
+		63CEACC610C2750B007CE7C2 /* Deprecated */ = {
+			isa = PBXGroup;
+			children = (
+				57E387EA0F52983200ADAA03 /* MJSongTrack.h */,
+				57E387EB0F52983200ADAA03 /* MJSongTrack.m */,
+				57E3883A0F529E5E00ADAA03 /* ITunesQueryFilterView.h */,
+				57E3883B0F529E5E00ADAA03 /* ITunesQueryFilterView.m */,
+				57DAF02F0F52A34A000F7ADB /* iTunesSearchTableController.h */,
+				57DAF0300F52A34A000F7ADB /* iTunesSearchTableController.m */,
+				57614EE50F4DF67A002A9F8B /* MJITunesController.h */,
+				57614EE60F4DF67A002A9F8B /* MJITunesController.m */,
+			);
+			name = Deprecated;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		257572C3072881A4000BE9CA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57CD35110EFA27B7009BE770 /* StatusbarController.h in Headers */,
+				57FA03120F496AA20001A82F /* MJGrowlDelegate.h in Headers */,
+				57FA05400F4AB58A0001A82F /* LoginItemLoader.h in Headers */,
+				57614EE70F4DF67A002A9F8B /* MJITunesController.h in Headers */,
+				57E387EC0F52983200ADAA03 /* MJSongTrack.h in Headers */,
+				57E3883C0F529E5E00ADAA03 /* ITunesQueryFilterView.h in Headers */,
+				57DAF0310F52A34A000F7ADB /* iTunesSearchTableController.h in Headers */,
+				6375E39810BBA71A007A8941 /* Growl.h in Headers */,
+				6375E39910BBA71A007A8941 /* GrowlApplicationBridge-Carbon.h in Headers */,
+				6375E39A10BBA71A007A8941 /* GrowlApplicationBridge.h in Headers */,
+				6375E39B10BBA71A007A8941 /* GrowlDefines.h in Headers */,
+				6375E3CF10BBAAE6007A8941 /* PreferencesController.h in Headers */,
+				6375E5B510BCDD32007A8941 /* PluginLoader.h in Headers */,
+				63CEAC4410C26C45007CE7C2 /* AppleRemote.h in Headers */,
+				63CEAC4710C26C58007CE7C2 /* HIDRemoteControlDevice.h in Headers */,
+				63CEAC5A10C26C7E007CE7C2 /* RemoteControl.h in Headers */,
+				6349D59710C377AF00D11C0A /* SimpleHTTPConnection.h in Headers */,
+				6349D59910C377AF00D11C0A /* SimpleHTTPServer.h in Headers */,
+				6349D59C10C377DC00D11C0A /* ServerDelegate.h in Headers */,
+				638C6DCB10C3799000236D06 /* MJDataUtility.h in Headers */,
+				638C6DDC10C379BB00236D06 /* JSON.h in Headers */,
+				638C6DDD10C379BB00236D06 /* NSObject+SBJSON.h in Headers */,
+				638C6DDF10C379BB00236D06 /* NSString+SBJSON.h in Headers */,
+				638C6DE110C379BB00236D06 /* SBJSON.h in Headers */,
+				638C6DE310C379BB00236D06 /* SBJsonBase.h in Headers */,
+				638C6DE510C379BB00236D06 /* SBJsonParser.h in Headers */,
+				638C6DE710C379BB00236D06 /* SBJsonWriter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		257572C2072881A4000BE9CA /* Mijoro Music */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "Mijoro Music" */;
+			buildPhases = (
+				6375E37D10BBA596007A8941 /* CopyFiles */,
+				257572C3072881A4000BE9CA /* Headers */,
+				257572C4072881A4000BE9CA /* AppleScript */,
+				257572C6072881A4000BE9CA /* Resources */,
+				257572C9072881A4000BE9CA /* Sources */,
+				257572CB072881A4000BE9CA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mijoro Music";
+			productInstallPath = "$(HOME)/Applications";
+			productName = MijorTunes;
+			productReference = 257572D6072881A4000BE9CA /* MijorTunes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "Mijoro Music" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MijorTunes */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257572C2072881A4000BE9CA /* Mijoro Music */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257572C6072881A4000BE9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
+				60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */,
+				57FA04AC0F4973490001A82F /* mijoroicon.icns in Resources */,
+				57614F820F50B302002A9F8B /* prevImage.png in Resources */,
+				57614F830F50B302002A9F8B /* nextImage.png in Resources */,
+				57614F850F50B302002A9F8B /* pauseImage.png in Resources */,
+				57614F920F50B3D6002A9F8B /* playImage.png in Resources */,
+				6375E3D310BBAB05007A8941 /* Preferences.xib in Resources */,
+				6375E43F10BBC814007A8941 /* MusicControllerProtocol.h in Resources */,
+				6321A93010C0FEBB00DF9F1A /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257572C9072881A4000BE9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257572CA072881A4000BE9CA /* main.m in Sources */,
+				57CD35120EFA27B7009BE770 /* StatusbarController.m in Sources */,
+				57FA03130F496AA20001A82F /* MJGrowlDelegate.m in Sources */,
+				57FA05410F4AB58A0001A82F /* LoginItemLoader.m in Sources */,
+				57614EE80F4DF67A002A9F8B /* MJITunesController.m in Sources */,
+				57E387ED0F52983200ADAA03 /* MJSongTrack.m in Sources */,
+				57E3883D0F529E5E00ADAA03 /* ITunesQueryFilterView.m in Sources */,
+				57DAF0320F52A34A000F7ADB /* iTunesSearchTableController.m in Sources */,
+				6375E3D010BBAAE6007A8941 /* PreferencesController.m in Sources */,
+				6375E5B610BCDD32007A8941 /* PluginLoader.m in Sources */,
+				63CEAC4310C26C45007CE7C2 /* AppleRemote.m in Sources */,
+				63CEAC4810C26C58007CE7C2 /* HIDRemoteControlDevice.m in Sources */,
+				63CEAC5910C26C7E007CE7C2 /* RemoteControl.m in Sources */,
+				6349D59810C377AF00D11C0A /* SimpleHTTPConnection.m in Sources */,
+				6349D59A10C377AF00D11C0A /* SimpleHTTPServer.m in Sources */,
+				638C6DCC10C3799000236D06 /* MJDataUtility.m in Sources */,
+				638C6DDE10C379BB00236D06 /* NSObject+SBJSON.m in Sources */,
+				638C6DE010C379BB00236D06 /* NSString+SBJSON.m in Sources */,
+				638C6DE210C379BB00236D06 /* SBJSON.m in Sources */,
+				638C6DE410C379BB00236D06 /* SBJsonBase.m in Sources */,
+				638C6DE610C379BB00236D06 /* SBJsonParser.m in Sources */,
+				638C6DE810C379BB00236D06 /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60A014C20DBD2AA20071D9A8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60A014C30DBD2AA20071D9A8 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E71A80608A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = MijorTunes;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E71A80708A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_OSAFLAGS = "-x";
+				PRODUCT_NAME = MijorTunes;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E71A80A08A2C90C0034BBD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		4E71A80B08A2C90C0034BBD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E71A80508A2C90C0034BBD9 /* Build configuration list for PBXNativeTarget "Mijoro Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80608A2C90C0034BBD9 /* Debug */,
+				4E71A80708A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E71A80908A2C90C0034BBD9 /* Build configuration list for PBXProject "Mijoro Music" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E71A80A08A2C90C0034BBD9 /* Debug */,
+				4E71A80B08A2C90C0034BBD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
